@@ -32,7 +32,7 @@ int main(){
     switch (Dapan){
          case 'a': printf(" đáp án chính xắc!\n");
          break;
-         case 'b': printf("sai rồi huhu!\n");
+         case 'b': printf("sai rồi sủa lại đe\n");
          break;
          case 'c':printf("sai rồi huhu!\n");
          break;

@@ -43,7 +43,7 @@ int main(){
         }
         //khi sử dụng if khi đúng điều kiện thì sẽ vào vùng của if còn nếu là sai đk so với if thì tiếp đó sẽ là else và không cần ghi điều kiện chương trình sẽ tự hiểu tất cả những trường hợp khác đều sai 
     } else {
-        printf("So diem khong hop le\n");
+        printf("So diem khong hop le roi \n");
     }
 
     return 0;

@@ -38,7 +38,7 @@ int main(){
             printf("phương trình vô nghiệm ");
          }
          else {
-             printf("phường trình có dạng là bx+c --> x =-c/b= %.1f",-c/b);
+             printf("phường trình có dạng là bx+c--> x =-c/b= %.1f",-c/b);
          }
     }
     else {

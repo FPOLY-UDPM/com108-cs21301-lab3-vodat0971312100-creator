@@ -25,7 +25,7 @@ int main(){
     scanf("%f",&b);
     if( a==0 ){
         if(b==0){
-            printf("phương trình có vô số nghiệm ");
+            printf("phương trình có vô số nghiệm rồi ");
         }
          if(b!=0){
             printf("phương trình vô nghiệm ");

@@ -36,7 +36,7 @@ int main(){
         }
     }
     else{
-        printf("số kí điện không hợp lệ! \nvui lòng nhập lại ");
+        printf("số kí điện không hợp lệ! \nvui lòng nhập lạihihi  ");
     }
     return 0;
     
