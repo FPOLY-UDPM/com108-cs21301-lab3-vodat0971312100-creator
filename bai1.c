@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Nguyễn Võ Minh Đạt]
+ * MSSV:      [PS49299]
+ * Lớp:       [COM108]
  *****************************************************************************/
 
 // BÀI 1: XÂY DỰNG CHƯƠNG TRÌNH TÍNH HỌC LỰC  
@@ -18,14 +18,34 @@
 #include <stdio.h>
 
 int main(){
+    float soDiem;
+    printf("Nhap so diem:\n");
+    scanf("%f", &soDiem);
 
-    // Khai báo biến
-
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán VÀ Hiển thị kết quả
+    if (soDiem >= 0 && soDiem <= 10){
+        if (soDiem >= 9){
+            printf("Hoc luc xuat sac\n");
+        }
+        else if (soDiem >= 8){
+            printf("Hoc luc gioi\n");
+        }
+        else if (soDiem >= 6.5){
+            printf("Hoc luc kha\n");
+        }
+        else if (soDiem >= 5){
+            printf("Hoc luc trung binh\n");
+        }
+        else if (soDiem >= 3.5){
+            printf("Hoc luc yeu\n");
+        }
+        else{
+            printf("Hoc luc kem\n");
+        }
+        //khi sử dụng if khi đúng điều kiện thì sẽ vào vùng của if còn nếu là sai đk so với if thì tiếp đó sẽ là else và không cần ghi điều kiện chương trình sẽ tự hiểu tất cả những trường hợp khác đều sai 
+    } else {
+        printf("So diem khong hop le roi \n");
+    }
 
     return 0;
 }
+

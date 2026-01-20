@@ -5,7 +5,7 @@
 int main(){
     int soN;
 
-    printf("Chương trình kiểm tra số chẵn lẻ\n");
+    printf("Chương trình kiểm tra số chẵn lẻ nè\n");
 
     printf("Nhập vào một số nguyên: ");
     scanf("%d", &soN);
