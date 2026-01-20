@@ -31,7 +31,15 @@ int main(){
       printf(" nhap vao gia tri c :");
     scanf("%f",&c);
     if(a==0){
-        printf("phường trình có dạng là bx+c --> x =-c/b= %.1f",-c/b);
+     if(b==0){
+            printf("phương trình có vô số nghiệm ");
+        }
+       else  if(b!=0){
+            printf("phương trình vô nghiệm ");
+         }
+         else {
+             printf("phường trình có dạng là bx+c --> x =-c/b= %.1f",-c/b);
+         }
     }
     else {
         float delta=b*b-4*a*c;
@@ -39,6 +47,7 @@ int main(){
         if(delta <0 ){
             printf("phương trình vô nghiệm");
             }
+            //ta sử dụng else if khi để không bị trùng lệnh if khi chạy chương trình nếu đều xài 2 if nối tiếp thì sẽ in ra cả hai if nếu rơi vào trường hợp else
             else if(delta == 0){
             printf(" phương trình có nghiệm kép là -b/(2*a)=%.1f",-b/(2*a));
             }

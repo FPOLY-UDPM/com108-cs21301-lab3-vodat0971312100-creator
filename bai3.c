@@ -16,23 +16,23 @@ int main(){
     printf("số điện tiêu thụ 1 tháng là :");
     scanf("%f",&kWh);
     if(kWh<=600 && kWh>0){
-        if(kWh > 401){
-            printf("giá cho một kí điện bậc 6 là 3.460 đồng/kWh =%.3f",kWh*3.460);
+        if(kWh >= 401){
+            printf("giá kí điện bậc 6 là 3.460 đồng/kWh =%.3f",(kWh-400)*3.460+100*3.350+100*2.998+100*2.380+50*2.050+50*1.984);
         }
-        else if(kWh>=301){
-           printf("giá cho một kí điện bậc 5 là 3.350 đồng/kWh =%.3f",kWh*3.350);
+        else if(kWh>=301 && kWh<=400){
+           printf("giá kí điện bậc 5 là 3.350 đồng/kWh =%.3f",kWh-300*3.350+100*2.998+100*2.380+50*2.050+50*1.984);
         }
-        else if(kWh>= 201 ){
-            printf("giá cho một kí điện bậc 4 là 2.998 đồng/kWh =%.3f",kWh*2.998);
+        else if(kWh>= 201 && kWh<=300 ){
+            printf("giá  kí điện bậc 4 là 2.998 đồng/kWh =%.3f",kWh-200*2.998+100*2.380+50*2.050+50*1.984 );
         }
-        else if (kWh >= 101){
-            printf("giá cho một kí điện bậc 3 là 2.380 đồng/kWh =%.3f",kWh*2.380);
+        else if (kWh >= 101 && kWh <=200){
+            printf("giá  kí điện bậc 3 là 2.380 đồng/kWh =%.3f",kWh-100*2.380+50*2.050+50*1.984);
         }
-        else if (kWh>=51){
-            printf("giá cho một kí điện bậc 2 là 2.050 đồng/kWh =%.3f",kWh*2.050);
+        else if (kWh>=51 && kWh<=100){
+            printf("giá  kí điện bậc 2 là 2.050 đồng/kWh =%.3f",kWh-50*2.050+50*1.984);
         }
         else{
-            printf("giá cho một kí điện bậc 1 là 1.984 đồng/kWh =%.3f",kWh*1.984);
+            printf("giá  kí điện bậc 1 là 1.984 đồng/kWh =%.3f",kWh*1.984);
         }
     }
     else{
