@@ -1,3 +1,8 @@
+/******************************************************************************
+ * Họ và tên: [Nguyễn Võ Minh Đạt]
+ * MSSV:      [PS49299]
+ * Lớp:       [COM108]
+ *****************************************************************************/
 // VÍ DỤ
 
 #include <stdio.h>
@@ -5,7 +10,7 @@
 int main(){
     int soN;
 
-    printf("Chương trình kiểm tra số chẵn lẻ\n");
+    printf("Chương trình kiểm tra số chẵn lẻ nè\n");
 
     printf("Nhập vào một số nguyên: ");
     scanf("%d", &soN);
